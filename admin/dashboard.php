@@ -325,6 +325,24 @@
 <!-----------------------------------Slide-Fin-------------------------------------------------->
     
             <div class="line" ></div>
+            <style>
+            .button 
+            {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            </style>
+            <center><a href="colaboradores.html" class="button">Colaboradores</a></center>
+            <div class="line" ></div>
+
             <footer>
                 <p class="text-center"> Psicoune &copy;<?php echo date("Y ");?> <i class="fa fa-map-marker " aria-hidden="true"></i> - CALLE FRANCISCO MOSTAJO 204  - YANAHUARA, Arequipa - Perú </p>
                 <p class="text-center"> <i class="fa fa-phone" aria-hidden="true">  (054) +51 958 336 625 - 950 319 245 </i> <i class="fa fa-envelope " aria-hidden="true"></i> cursospsicoune@gmail.com </p>
@@ -333,9 +351,6 @@
             <center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
             <img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=276615"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'></a><br><a href='http://boxindian.com/'></a></center>
             <!-- Fin Contador de visitas -->
-        </div>
-
-
 
 </div>
 
