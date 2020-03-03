@@ -13,6 +13,14 @@
     align-items: center;
 }
 
+.mensage{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .container a
 {
     position: relative;
@@ -30,6 +38,7 @@
     letter-spacing: 2px;
     overflow: hidden;
 }
+
 .container a span
 {
     position: relative;
