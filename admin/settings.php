@@ -171,10 +171,7 @@ $eprow=mysqli_fetch_array($sqlE);
                         </div>
                     </div>
                 </nav>
-
-             
-
-                                                  
+                         
                             <?php
                             if(isset($mysqli,$_POST['submit'])){
                             $old_password1 =mysqli_real_escape_string($mysqli,$_POST['old_password']);

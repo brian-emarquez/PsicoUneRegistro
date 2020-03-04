@@ -135,7 +135,7 @@
 		$mail->Username ='registropsicoune@gmail.com';
 		$mail->Password ='23mner56';
 		
-		$mail->setFrom('pruebadb10@gmail.com','Psicoune'); //Modificar
+		$mail->setFrom('pruebadb10@gmail.com','Psicoune Registro'); //Modificar
 		$mail->addAddress($email, $nombre);
 		
 		$mail->Subject = $asunto;

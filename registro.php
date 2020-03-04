@@ -72,11 +72,10 @@
 						$url = 'http://'.$_SERVER["SERVER_NAME"].'/dashboard/proyectos/PsicoUneRegistro/activar.php?id='.$registro.'&val='.$token;
 								
 						$asunto = 'Activar Cuenta ';
-						$cuerpo = "Estimado $usuario: <br /><br />Para continuar con el proceso de registro, es indispensable de click en la siguiente Link 
+						$cuerpo = "Estimado/a $usuario: <br /><br />Para continuar con el proceso de registro, es indispensable de click en el siguiente Link 
 						<a href='$url'>Activar Cuenta</a>";
-					
-				
 
+	
 						if(enviarEmail($email, $nombre, $asunto, $cuerpo)){
 						
 						echo "Para terminar el proceso de registro siga las instrucciones que le hemos enviado la direccion de correo electronico: $email";
