@@ -135,13 +135,19 @@ $eprow=mysqli_fetch_array($sqlE);
                             Ajustes
                         </a>
                     </li>
+                    <li>
+                        <a href="logout.php">
+                            <i class="fa fa-sign-out"></i>
+                            Salir
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
             <div id="content">
              
             <div clas="col-md-12">
-                <!--<img src="assets/image/ssm.jpg" class="img-thumbnail">-->
+            <img src="assets/image/ssm.png" class="img-thumbnail">
                 </div>
          
                 
@@ -158,6 +164,7 @@ $eprow=mysqli_fetch_array($sqlE);
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right  makotasamuel">
                                 <li><a href="#"><?php require_once('includes/name.php');?></a></li>
+                                <li ><a href="http://psicouneregistro.ga/"><i class="fa fa-undo"> Pagina inicial</i></a></li> 
                                 <li ><a href="logout.php"><i class="fa fa-power-off"> Cerrar sesión</i></a></li>
            
                             </ul>

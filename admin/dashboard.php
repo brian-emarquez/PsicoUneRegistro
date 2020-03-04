@@ -141,6 +141,12 @@
                             Ajustes
                         </a>
                     </li>
+                    <li>
+                        <a href="logout.php">
+                            <i class="fa fa-sign-out"></i>
+                            Salir
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
@@ -148,7 +154,7 @@
             <div id="content">
              
                 <div clas="col-md-12"></div>
-                <!--<img src="assets/image/ssm.jpg" class="img-thumbnail">-->
+                <img src="assets/image/ssm.png" class="img-thumbnail">
                 <nav class="navbar navbar-default sammacmedia">
                     <div class="container-fluid">
 
@@ -162,8 +168,8 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right  makotasamuel">
                                 <li><a href="v_users.php"><?php require_once('includes/name.php');?></a></li>
+                                <li ><a href="http://psicouneregistro.ga/"><i class="fa fa-undo"> Pagina inicial</i></a></li> 
                                 <li ><a href="logout.php"><i class="fa fa-power-off"> Cerrar sesión</i></a></li> 
-           
                             </ul>
                            
                         </div>
@@ -172,6 +178,10 @@
                 <h5 align="center">Fichas rápidas</h5>   
                 <div class="line"></div>
                 <div class="row">
+
+                <?php
+                if($_SESSION['permission']==1 or $_SESSION['permission']==2 ){
+                ?>
 
                 <div class="col-lg-6 col-md-6 ">
                     <div class="panel panel sammac sammacmedia">
@@ -191,7 +201,11 @@
                        
                     </div>
                 </div>
+                <?php }?>
 
+                <?php
+                if($_SESSION['permission']==1 or $_SESSION['permission']==2 ){
+                ?>
                 <div class="col-lg-6 col-md-6">
                     <div class="panel panel strover sammacmedia">
                     <a href="v_issue.php">
@@ -209,23 +223,64 @@
                      
                     </div>
                 </div>
+                <?php }?>
 
+                <?php
+                if($_SESSION['permission']==1 or $_SESSION['permission']==2 ){
+                ?>
                 <div class="col-lg-6 col-md-6" >
                 <div class="panel panel strover sammacmedia" style="background-color:#0A63A5" >
-                    <a href="a_people.php">
+                    <a href="all_people.php">
                         <div class="panel-heading" >
                             <div class="row">
                                 <div class="col-xs-4">
-                                    <i class="fa fa-cogs fa-5x" ></i>
+                                    <i class="fa fa-file-text-o fa-5x"></i>                                
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge"><?php echo $people;?></div>
-                                    <div>Ajustes del Usuarios</div>
+                                    <div>Ajustes del Personas</div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div> 
+                <?php }?>
+
+                <div class="col-lg-6 col-md-6" >
+                <div class="panel panel strover sammacmedia" style="background-color:#5879B5" >
+                    <a href="settings.php">
+                        <div class="panel-heading" >
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <i class="fa fa-wrench fa-5x"></i>                                
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge"><br></div>
+                                    <div>Ajustes Generales</div>
                                 </div>
                             </div>
                         </div>
                      </div>
                 </div>  
+
+                <div class="col-lg-6 col-md-6" >
+                <div class="panel panel strover sammacmedia" style="background-color:#7552A4" >
+                    <a href="invest.php">
+                        <div class="panel-heading" >
+                            <div class="row">
+                                <div class="col-xs-4">
+                                    <i class="fa fa-exclamation-triangle fa-5x"></i>                                
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge"><br></div>
+                                    <div>Informe de Problemas</div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div> 
+
+                
             </div>
                            
               
