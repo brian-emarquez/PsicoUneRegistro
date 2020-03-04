@@ -153,13 +153,14 @@
 					
 					
 					   </div>
+					   <P> Se recomienda que se registre en un ordenador</p> 
+
 						<p><hr width=100%  align="center" size=20><p>
 						<div style="float:right; font-size: 85%; position: relative; top:-50px"><a id="signinlink" href="index2.php">Iniciar Sesi&oacute;n</a></div>
 					</div>  
 					<div class="panel-body" >
 						
 
-							
 						<form id="signupform" class="form-horizontal" role="form" action="<?php $_SERVER['PHP_SELF'] ?>" method="POST" autocomplete="off">
 							<div id="signupalert" style="display:none" class="alert alert-danger">
 								<p>Error:</p>
