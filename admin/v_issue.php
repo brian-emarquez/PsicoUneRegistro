@@ -80,12 +80,7 @@
                         </a>
                     </li>
                     <?php }?>
-                             <?php
-
-                    if($_SESSION['permission']==1 or $_SESSION['permission']==2 ){
-                                                                
-                                                            
-                        ?>
+                             
                         <li>
                             <a href="maps.php">
                             <i class="fa fa-map-marker"></i>
@@ -93,7 +88,7 @@
 
                             </a>
                         </li>
-                        <?php }?>
+                       
                                 <?php
 
                     if($_SESSION['permission']==1 or $_SESSION['permission']==2 ){

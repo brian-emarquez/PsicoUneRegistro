@@ -1,6 +1,6 @@
 <?php 
 	class DbConnect {
-		private $host = 'localhost:3307';
+		private $host = 'localhost';
 		private $dbName = 'rpo';
 		private $user = 'briandb';
 		private $pass = 'briandb';

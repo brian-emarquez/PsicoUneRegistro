@@ -1,6 +1,6 @@
 <?php 
 
-$connect = mysqli_connect("localhost:3307", "briandb", "briandb", "rpo");
+$connect = mysqli_connect("localhost", "briandb", "briandb", "rpo");
 $query = "SELECT * FROM people";
 
 $result = mysqli_query($connect, $query);
