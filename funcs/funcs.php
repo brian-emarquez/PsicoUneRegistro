@@ -132,10 +132,10 @@
 		$mail->SMTPSecure ='tls';
 		$mail->Host ='smtp.gmail.com';
 		$mail->Port ='587';
-		$mail->Username ='registropsicoune@gmail.com';
-		$mail->Password ='23mner56';
+		$mail->Username ='TU CORREO'; //Modificar
+		$mail->Password ='TU CORREO'; //Modificar
 		
-		$mail->setFrom('pruebadb10@gmail.com','Psicoune Registro'); //Modificar
+		$mail->setFrom('TU CORREO','Psicoune Registro'); //Modificar
 		$mail->addAddress($email, $nombre);
 		
 		$mail->Subject = $asunto;
