@@ -19,7 +19,7 @@
 		$permission = 3;
 		$type = 'user';
 		$year = date("Y");
-		$secret = '6LcFq8UUAAAAAIkExRMo6d3rPAUqk7NTDMN1S-uo';
+		$secret = '         CODIGO SECRETO RECAPCHA            ';
 		
 		if(!$captcha){
 			$errors[] = "Por favor verifica el captcha";
@@ -215,7 +215,7 @@
 							
 							<div class="form-group">
 								<label for="captcha" class="col-md-3 control-label"></label>
-								<div class="g-recaptcha col-md-9" data-sitekey="6LcFq8UUAAAAAFgSICeJIIYHFFu_NWO8kVmH20WD"></div>
+								<div class="g-recaptcha col-md-9" data-sitekey="           CODIGO RECAPCHA              "></div>
 							</div>
 							
 							<div class="form-group">                                      
